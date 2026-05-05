@@ -34,22 +34,23 @@ body {
 }
 
 .hero {
-    height: 80vh;
+    height: 100vh;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     background-color: rgb(253, 241, 166);
     text-align: center;
+    padding: 200px;
+    height: 200px;
 }
 
-.hero h1 {
-    font-size: 28px;
+.right h1 {
+    font-size: 30px;
     color: rgb(30, 23, 9);
     margin-bottom: -15px;
 }
 
-.hero p {
+.right p {
     font-size: 15px;
     color: rgb(15, 8, 8);
     margin-bottom: 20px;
@@ -57,7 +58,7 @@ body {
     margin-top: 20px;
 }
 
-.hero button {
+.right button {
     padding: 10px 20px;
     border: none;
     cursor: pointer;
@@ -67,9 +68,15 @@ body {
     border-radius: 30px;
 }
 
-.hero button:hover {
+.right button:hover {
     background-color: rgb(255, 255, 255);
     color: rgb(25, 24, 13);
     transform: scale(1.1);
 }
 
+.left img {
+    display: flex;
+    justify-content: space-between;
+    height: 800px;
+    width: 800px;
+}
