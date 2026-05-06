@@ -20,7 +20,6 @@ body{
 
 .logo {
     color: rgb(255, 232, 150);
-    height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -60,6 +59,11 @@ body{
     text-align: center;
 }
 
+.hero-content h1 {
+    margin-top: 30vh;
+
+}
+
 .hero-content p{
     font-size: 30px;
     margin-bottom: 30px;
@@ -86,17 +90,44 @@ body{
 
 .services{
     padding: 50px 20px;
+    background: rgb(26, 16, 3);
+    color:rgb(255, 232, 150) ;
+}
+
+.our-services h2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+
+.our-services p{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px; 
 }
 
 .cards{
     display: flex;
+    align-items: center;
     justify-content: center;
+    gap: 50px;
+}
+
+.card {
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(255, 232, 150);
+    border-radius: 30px;
+    color: rgb(26, 16, 3);
+    padding: 15px 30px;
 }
 
 /* about */
 .about{
     padding: 50px 20px;
     text-align: center;
+    background-color: rgb(255, 232, 150);
+    
 }
 
 .container{
@@ -107,7 +138,7 @@ body{
 }
 
 .about img{
-    width: 100%;
+    width: 80vh;
     border-radius: 10px;
 }
 
