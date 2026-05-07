@@ -35,16 +35,26 @@ body{
 
 .nav-links li{
     margin-left: 20px;
+    margin-top: 10px;
 }
 
 .nav-links a{
-    color:rgb(255, 232, 150);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(255, 232, 150);
+    color: rgb(34, 21, 6);
+    height: 40px;
+    width: 80px;
+    border-radius: 50px;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 16px;
+    font-weight: bolder;
 }
 
 .nav-links a:hover{
     color: white;
+    background-color: rgb(34, 21, 6);
 }
 
 /* hero */
@@ -80,12 +90,13 @@ body{
     border: none;
     background: rgb(26, 16, 3);
     color:rgb(255, 232, 150) ;
-    border-radius: 15px;
+    border-radius: 50px;
 }
 
 .hero button:hover{
-    background:white ;
+    background-color:white;
     color: rgb(26, 16, 3);
+    font-weight: bolder;
 }
 
 .services{
@@ -118,24 +129,29 @@ body{
     justify-content: space-around;
     align-items: center;
     background-color: rgb(255, 232, 150);
-    border-radius: 30px;
+    border-radius: 50px;
     color: rgb(26, 16, 3);
     padding: 15px 30px;
 }
 
 /* about */
 .about{
+    display: flex;
     padding: 50px 20px;
-    text-align: center;
+    align-items: center;
+    justify-content: space-between;
     background-color: rgb(255, 232, 150);
     
 }
 
 .container{
     display: flex;
+    text-align: center;
     align-items: center;
-    gap: 20px;
-    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30vh;
+
+    
 }
 
 .about img{
@@ -143,9 +159,49 @@ body{
     border-radius: 10px;
 }
 
-.about-text {
-    max-width: 100%;
-    margin-bottom: 40px;
+.about-text h2{
+    margin-bottom: 20px;
+    font-size: 50px;
 }
 
-/*  */
+.about-text p {
+    font-size: 20px;
+}
+
+/* footer */
+.footer{
+    background: rgb(26, 16, 3);
+    align-items: center;
+    color:rgb(255, 232, 150) ;   
+}
+
+.footer p {
+    text-align: center;
+    padding: 15px 30px;
+    font-size: 15px;
+}
+
+.socials {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content:space-around;
+    padding: 15px 30px;
+    cursor: pointer;
+}
+
+.socials i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 232, 150);
+    color: rgb(26, 16, 3);
+    border-radius: 50px;
+    height: 40px;
+    width: 50px;
+}
+
+.socials i:hover {
+    background-color: rgb(26, 16, 3);
+    color: rgb(255, 232, 150);    
+}
