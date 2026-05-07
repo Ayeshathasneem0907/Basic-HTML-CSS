@@ -92,6 +92,7 @@ body{
     padding: 50px 20px;
     background: rgb(26, 16, 3);
     color:rgb(255, 232, 150) ;
+    
 }
 
 .our-services h2{
@@ -144,6 +145,7 @@ body{
 
 .about-text {
     max-width: 100%;
+    margin-bottom: 40px;
 }
 
 /*  */
